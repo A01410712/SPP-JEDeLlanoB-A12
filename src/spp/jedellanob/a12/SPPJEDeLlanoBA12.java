@@ -33,7 +33,7 @@ public class SPPJEDeLlanoBA12 {
         }
         if(imc>25){
                 JOptionPane.showMessageDialog(null, "Su IMC es de "+imc);
-                JOptionPane.showMessageDialog(null,"Usted está obes@");
+                JOptionPane.showMessageDialog(null,"Obes@");
         }
     }
    
@@ -50,7 +50,7 @@ public class SPPJEDeLlanoBA12 {
         boolean flag;
         do{        
             try{
-                String entrada = JOptionPane.showInputDialog(null, "Ingrese su peso en kilogramos: ");
+                String entrada = JOptionPane.showInputDialog(null, " Peso en kilogramos: ");
                 peso =Integer.parseInt(entrada);
                 flag=false;
             }catch(Exception ex){
@@ -69,7 +69,7 @@ public class SPPJEDeLlanoBA12 {
         boolean flag;
         do{        
             try{
-                String entrada = JOptionPane.showInputDialog(null, "Ingrese su estatura en metros: ");
+                String entrada = JOptionPane.showInputDialog(null, "Estatura en metros: ");
                 e =Double.parseDouble(entrada);
                 flag=false;
             }catch(Exception ex){
